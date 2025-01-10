@@ -15,7 +15,7 @@ body {
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 1280px;
   margin: 0 auto;
   padding: 20px;
 }
@@ -45,6 +45,8 @@ nav button:hover {
   color: #f4f4f4;
   transition: 01s ease;
 }
+
+/* Banner styles */
 
 .banner {
   justify-content: space-between;
@@ -94,4 +96,45 @@ nav button:hover {
   width: 474px;
   height: 400px;
   margin-top: 20px;
+  margin-right: 40px;
+}
+
+.pillars-text {
+  display: inline-block;
+  margin-top: 48px;
+  font-weight: bold;
+  color: #0e0e0e;
+}
+
+.pillars {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.pillars-section {
+  display: flex;
+  gap: 20px;
+  width: 302px;
+  height: 244px;
+  display: flex;
+  padding: 24px;
+  margin-top: 20px;
+}
+
+.pillar h2 {
+  margin-top: 10px;
+  font-weight: bold;
+  color: #0e0e0e;
+  opacity: 50%;
+}
+
+.pillar p {
+  font-size: 12px;
+  line-height: 24px;
+  margin-top: 10px;
+}
+
+.pillar img {
+  width: 64px;
+  height: 64px;
 }
