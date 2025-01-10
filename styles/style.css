@@ -1,0 +1,97 @@
+@import url("https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  font-family: Fira Sans;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Fira Sans;
+  background-color: #f4f4f4;
+  margin: 20px;
+  min-height: 100vh;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Nav styles */
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav h1 {
+  color: #0e0e0e;
+  font-size: bold;
+}
+
+nav button {
+  padding: 10px 20px;
+  border: 1px solid #006a50;
+  color: #006a50;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+nav button:hover {
+  background-color: #004d3c;
+  color: #f4f4f4;
+  transition: 01s ease;
+}
+
+.banner {
+  justify-content: space-between;
+  margin-top: 34px;
+  padding: 40px 0;
+  display: flex;
+  background-color: #c6e4d6;
+  border-radius: 15px;
+}
+
+.banner-text {
+  padding: 40px;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.banner-text h4 {
+  font-weight: bold;
+  color: #0e0e0e;
+  opacity: 50%;
+  margin-bottom: 10px;
+}
+
+.banner-text h1 {
+  font-weight: bold;
+  color: #0e0e0e;
+  font-size: 56px;
+}
+.banner-text button {
+  background-color: #006a50;
+  color: #ffffff;
+  padding: 10px 14px;
+  border: none;
+  border-radius: 7px;
+  font-size: 16px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.banner-text button:hover {
+  background-color: #008a66;
+  transition: 0.1s ease;
+}
+
+.banner-img {
+  width: 474px;
+  height: 400px;
+  margin-top: 20px;
+}
