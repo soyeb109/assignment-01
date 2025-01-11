@@ -195,6 +195,8 @@ nav button:hover {
   height: 64px;
 }
 
+/* Card Bg  */
+
 .card-blue {
   background-color: #5490f5;
 }
@@ -207,6 +209,8 @@ nav button:hover {
   background-color: #f7ebcf;
 }
 
+/* Common button style */
+
 .btn-blue {
   background-color: #006a50;
   border: none;
@@ -217,7 +221,13 @@ nav button:hover {
   font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
+
+.btn-blue:hover {
+  background-color: #3ec2a1;
+}
+
 .btn-green {
   background-color: #09a15c;
   border: none;
@@ -228,6 +238,11 @@ nav button:hover {
   font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  cursor: pointer;
+}
+
+.btn-green:hover {
+  background-color: #004d3c;
 }
 .btn-yellow {
   background-color: #ffc239;
@@ -239,7 +254,14 @@ nav button:hover {
   font-size: 1rem;
   font-weight: bold;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
+
+.btn-yellow:hover {
+  background-color: #e4a508;
+}
+
+/* Qoute section style */
 
 .qoute {
   background-image: url(/images/quote-bg.png);
@@ -256,6 +278,8 @@ nav button:hover {
   margin-top: 26px;
   opacity: 70%;
 }
+
+/* Opinion Styles */
 
 .name-heading {
   font-size: 16px;
@@ -283,6 +307,9 @@ nav button:hover {
   justify-content: space-between;
   padding: 24px;
 }
+
+/* Question section styles */
+
 .question {
   display: flex;
   width: 1200px;
@@ -315,9 +342,13 @@ nav button:hover {
   border-radius: 4px;
 }
 
+/* Common */
+
 hr {
   opacity: 40%;
 }
+
+/* News Styles */
 
 .news-heading {
   margin-top: 40px;
@@ -369,4 +400,141 @@ hr {
 
 .card-2 {
   margin-left: 46px;
+}
+
+/* Donate styles */
+.donate-container {
+  display: flex;
+}
+.donate-container p {
+  color: #0e0e0e;
+  font-size: 12px;
+  opacity: 60%;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.donate-heading {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.btn-group {
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  box-shadow: #f4f4f4;
+}
+
+.btn-white {
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 40px;
+  background-color: #ffffff;
+  color: #0e0e0e;
+  cursor: pointer;
+}
+
+.btn-white:hover {
+  background-color: #c6e4d6;
+}
+
+.btn-different {
+  font-weight: bold;
+  font-size: large;
+  border: none;
+  border-radius: 5px;
+  padding-inline: 40px;
+  background-color: #c6e4d6;
+}
+
+.input-content {
+  text-align: center;
+}
+
+.input-content input {
+  text-align: center;
+  padding: 18px;
+  margin-top: 40px;
+  margin-left: 20px;
+  border: none;
+  opacity: 50%;
+}
+
+.center-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Newsletter styles */
+
+.newletter-section {
+  padding: 80px 100px;
+  margin-top: 58px;
+  background-color: #c6e4d6;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  transition: background-color 0.3s, transform 0.3s;
+  cursor: pointer;
+}
+
+.newletter-section:hover {
+  background-color: #e0e0e0;
+  transform: scale(1.02);
+}
+
+.newsletter-heading {
+  margin-bottom: 20px;
+}
+
+.newsletter-title {
+  margin-bottom: 20px;
+}
+
+.newsletter-input {
+  display: flex;
+  align-items: center;
+  width: 350px;
+  height: 36px;
+  border: none;
+  justify-content: center;
+  margin-left: 120px;
+  margin-bottom: 20px;
+}
+
+.newsletter-input input {
+  width: 550px;
+  text-align: center;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px 0 0 5px;
+  opacity: 50%;
+}
+
+.newsletter-btn {
+  background-color: #004d3c;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-left: none;
+  border-radius: 0 5px 5px 0;
+  background-color: #004d3c;
+  color: #f4f4f4;
+  cursor: pointer;
+}
+
+.newsletter-btn:hover {
+  background-color: #006a50;
+}
+
+.newsletter-description {
+  font-size: 12px;
+  color: #0e0e0e;
 }
